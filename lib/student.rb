@@ -40,7 +40,8 @@ class Student
   end
   
   def self.create(attributes)
-    attributes.each 
+    attributes.each { |k, v| instance_variable_set("@#{k}", v) }
+    binding.pry
   end
   
 end
