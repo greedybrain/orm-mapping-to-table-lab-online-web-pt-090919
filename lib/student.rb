@@ -40,8 +40,7 @@ class Student
   end
   
   def self.create(attributes)
-    
-    binding.pry
+    #
   end
   
 end
